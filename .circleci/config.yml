@@ -1,0 +1,10 @@
+version: 2.1
+
+orbs:
+  warden: repowarden/warden@0.1
+
+workflows:
+  main-wf:
+    jobs:
+      - warden/audit:
+          version: "0.1.0"
