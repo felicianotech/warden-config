@@ -1,0 +1,33 @@
+- group: priority
+  repositories:
+    - url: https://github.com/felicianotech/homebrew-tap
+    - url: https://github.com/hubci/arc
+    - url: https://github.com/felicianotech/sonar
+    - url: https://github.com/felicianotech/www.feliciano.tech
+      tags:
+        - hugo
+- group: strawberry
+  repositories:
+    - url: https://github.com/strawberryssg/strawberry-v0
+    - url: https://github.com/hubci/strawberry-docker
+      tags:
+        - docker
+    - url: https://github.com/hubci/strawberry-orb
+      tags:
+        - orb
+- group: other
+  repositories:
+    - url: https://github.com/felicianotech/pointless
+    - url: https://github.com/felicianotech/para
+    - url: https://github.com/hubci/goreleaser-orb
+      tags:
+        - orb
+    - url: https://github.com/hubci/sphere-orb
+      tags:
+        - orb
+    - url: https://github.com/felicianotech/hugo-theme-lean-launch-page
+    - url: https://github.com/felicianotech/pocket-casts-desktop-app
+    - url: https://github.com/felicianotech/project-metrics
+    - url: https://github.com/hubci/hugo-docker
+      tags:
+        - docker
