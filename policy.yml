@@ -1,0 +1,5 @@
+defaultBranch: "trunk"
+archived: false
+license:
+  scope: "public"
+  names: ["mit", "apache-2.0"]
